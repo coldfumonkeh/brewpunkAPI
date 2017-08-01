@@ -1,0 +1,8 @@
+{
+    "web":{
+        "host":"brewpunk.local",
+        "http":{
+            "port":"80"
+        }
+    }
+}

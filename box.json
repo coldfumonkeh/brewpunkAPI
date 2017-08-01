@@ -1,0 +1,34 @@
+{
+    "name":"BrewPunk API",
+    "slug":"brewpunkAPI",
+    "version":"1.0.0",
+    "author":"Matt Gifford <matt@monkehworks.com>",
+    "location":"coldfumonkeh/brewpunkAPI#v1.2.0",
+    "directory":"",
+    "createPackageDirectory":"true",
+    "homepage":"https://github.com/coldfumonkeh/brewpunkAPI",
+    "documentation":"https://github.com/coldfumonkeh/brewpunkAPI",
+    "type":"modules",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/coldfumonkeh/brewpunkAPI.git"
+    },
+    "bugs":"https://github.com/coldfumonkeh/brewpunkAPI/issues",
+    "shortDescription":"A ColdFusion wrapper to interact with the brewpunk API",
+    "keywords":[
+        "brewpunkAPI",
+        "api"
+    ],
+    "scripts":{
+        "postVersion":"package set location='coldfumonkeh/brewpunkAPI#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push --follow-tags"
+    },
+    "private":"false",
+    "devDependencies":{
+        "testbox":"^2.5.0+107"
+    },
+    "installPaths":{
+        "testbox":"testbox"
+    }
+}
