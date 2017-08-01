@@ -8,7 +8,7 @@
     "createPackageDirectory":"true",
     "homepage":"https://github.com/coldfumonkeh/brewpunkAPI",
     "documentation":"https://github.com/coldfumonkeh/brewpunkAPI",
-    "type":"modules",
+    "type":"project",
     "repository":{
         "type":"git",
         "URL":"https://github.com/coldfumonkeh/brewpunkAPI.git"
